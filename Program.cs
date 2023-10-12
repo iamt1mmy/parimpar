@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace pareimpare
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int x;
+
+            x = Convert.ToInt32(Console.ReadLine());
+
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("PAR");
+            }
+            else
+            {
+                Console.WriteLine("Impar");
+            }
+        }
+    }
+}
